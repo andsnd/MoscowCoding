@@ -29,3 +29,29 @@ color: #e81c4f;
 iframe {
   max-width: 100%;
 }
+form {
+  background-color: black;
+  padding: 50px;
+}
+input {
+  height: 50px;
+  display: inline-block;
+  border: none;
+}
+.email {
+  background-color: transparent;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  padding-left: 15px;
+  width: 60%;
+  color: #eee;
+}
+.submit {
+  background-color: white;
+  color: black;
+  width: 40%;
+  text-transform: uppercase;
+}
+.email:focus {
+  outline: none;
+}
