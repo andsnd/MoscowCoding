@@ -28,7 +28,18 @@ html {
 .container {
   max-width: 620px;
   margin: 0 auto;
+  animation-name: opacity;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
+  @keyframes opacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 ul {
   list-style-type: none;
   margin: 0px;

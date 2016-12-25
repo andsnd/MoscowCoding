@@ -1,0 +1,13 @@
+input[type=text], input[type=password] {
+  background-color: #f8f9fa;
+  border: 2px solid #e8e8e8;
+  border-radius: 4px;
+}
+input[type=submit], input[type=reset] {
+  background-color: #0f0;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>animation</title>
+  <style>
+    p {
+      /*animation-duration: 3s;
+      animation-name: slidein;
+      animation-fill-mode: forwards; */
+      /*сохраняет изменеиня анимации*/
+    }
+
+    /*также можно задавать анимацию через класс: .slidein {...}*/
+
+    /*@keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+
+      to {
+        margin-left: 0;
+        width: 300%;
+      }
+    }*/
+    .slidein {
+      animation-duration: 4s;
+      animation-name: slidein;
+      animation-fill-mode: forwards;
+      position: absolute;
+    }
+    @keyframes slidein {
+      from {
+        top: 0px;
+        left: 0px;
+      }
+
+      to {
+        top: 0px;
+        left: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non animi iusto iure asperiores voluptates ullam sint accusantium inventore qui eum, rem saepe, eligendi repudiandae facilis dignissimos in necessitatibus eius incidunt!
+  </p> -->
+  <div>
+    <img class="slidein" src="parrot.png" alt="">
+  </div>
+</body>
+</html>
