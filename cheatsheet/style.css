@@ -1,12 +1,16 @@
 body {
-margin: 0 auto;
-max-width: 500px;
+/*margin: 0 auto;
+max-width: 500px;*/
 font-family: "Helvetica", "Arial", sans-serif;
 line-height: 1.5;
-padding: 40px 10px;
+padding: 40px 0px;
 color: #555;
+margin: 0px;
 }
-
+h1, h2, div {
+  margin: 0 auto;
+  max-width: 500px;
+}
 h2 {
   margin-top: 10px;
   padding-top: 1em;
@@ -54,4 +58,7 @@ input {
 }
 .email:focus {
   outline: none;
+}
+.full-width {
+  max-width: none;
 }
